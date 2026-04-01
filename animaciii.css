@@ -1,0 +1,97 @@
+/* Button Animations & Hover States */
+.btn-primary, .btn-secondary {
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 4px; /* Slightly sharper for a modern look */
+    margin: 10px;
+    display: inline-block;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Smooth 'Power' curve */
+    position: relative;
+    top: 0;
+}
+
+.btn-primary {
+    background-color: #d4a756;
+    color: #0a1428;
+    border: 1px solid #d4a756;
+}
+
+.btn-primary:hover {
+    background-color: #c49645;
+    transform: translateY(-3px); /* Lifts slightly up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    color: white;
+    backdrop-filter: blur(5px); /* Adds a glass effect */
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: #0a1428;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Page Load Animation (Fade Up) */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-content {
+    animation: fadeInUp 1.2s ease-out forwards;
+}
+
+/* Subtle Link Underline Animation for Nav */
+.nav-links a {
+    position: relative;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    background-color: #d4a756;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* Scroll Reveal Base */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.2, 1, 0.3, 1); /* Professional 'ease-out' */
+    transition-property: opacity, transform;
+}
+
+/* This is the state when the element is HIDDEN */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px); /* Slides down slightly */
+    transition: opacity 1.2s ease, transform 1.2s ease; /* Slow, elegant speed */
+    visibility: hidden; /* Prevents clicking invisible buttons */
+}
+
+/* This is the state when the element is VISIBLE */
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0); /* Slides up to original position */
+    visibility: visible;}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment 2025/2026 | SS "St. Cyril and Methodius"</title>
+    <link rel="stylesheet" href="firstpage.css">
+    <link rel="stylesheet" href="za.css">
+    <link rel="stylesheet" href="upisi.css"> 
+    <link rel="stylesheet" href="animaciii.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><span>🎓 SS "St. Cyril and Methodius"</span></div>
+            <ul class="nav-links">
+                <li><a href="index-en.html">Home</a></li>
+                <li><a href="za-en.html">Enrollment</a></li>
+                <li><a href="abt-en.html">About School</a></li>
+                <li><a href="news-en.html">News</a></li>
+                <li><a href="contact-en.html">Contact</a></li>
+                <li class="lang-dropdown">
+                    <a href="#" class="lang-btn">EN ▾</a>
+                    <ul class="lang-menu">
+                        <li><a href="za.html">Macedonian</a></li>
+                        <li><a href="za-en.html">English</a></li>
+                        <li><a href="za-sq.html">Shqip</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="contact-header">
+        <h1>Internal <span class="highlight">Competition</span></h1>
+        <p class="header-subtitle"></p>
+    </header>
+
+    <main class="upisi-main">
+        <div class="container">
+            
+            <h2 class="section-title">Available Places by Sector</h2>
+            <div class="table-wrapper reveal">
+                <table class="academic-table">
+                    <thead>
+                        <tr>
+                            <th>Sector / Educational Profile</th>
+                            <th>Duration</th>
+                            <th>Min. Points</th>
+                            <th>No. of Students</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Gymnasium Education (General)</td><td>4 years</td><td>60 points</td><td>34 students</td></tr>
+                        <tr><td>Bilingual Gymnasium (French)</td><td>4 years</td><td>60 points</td><td>34 students</td></tr>
+                        <tr><td>Computer Tech and Automation</td><td>4 years</td><td>55 points</td><td>34 students</td></tr>
+                        <tr><td>Computer Tech and Automation (Dual)</td><td>4 years</td><td>55 points</td><td>25 students</td></tr>
+                        <tr><td>Electrical Technician – Energetics</td><td>4 years</td><td>45 points</td><td>34 students</td></tr>
+                        <tr><td>Food Technician (Dual)</td><td>4 years</td><td>45 points</td><td>25 students</td></tr>
+                        <tr><td>E-commerce and Marketing Technician</td><td>4 years</td><td>60 points</td><td>34 students</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="requirements-grid">
+                <div class="req-card reveal">
+                    <h3>General Conditions</h3>
+                    <ul class="req-list">
+                        <li>Completed primary education <span>Yes</span></li>
+                        <li>Maximum age (regular) <span>17 y.o.</span></li>
+                        <li>Maximum age (part-time) <span>25 y.o.</span></li>
+                    </ul>
+                </div>
+                <div class="req-card reveal">
+                    <h3>Selection Criteria</h3>
+                    <ul class="req-list">
+                        <li>Average grade (VI-IX) <span>Max. 50</span></li>
+                        <li>Grades in 4 key subjects <span>Max. 20</span></li>
+                        <li>Behavior (VI-IX) <span>Max. 5</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="calculator-section reveal">
+                <h2 class="section-title text-center">Points Calculator</h2>
+                <div class="calc-grid-wrapper">
+                    <div class="calc-main-inputs">
+                        <div class="input-block">
+                            <h4><span class="step-num">1</span> General GPA (VI-IX)</h4>
+                            <div class="gpa-inputs">
+                                <input type="number" id="avg6" placeholder="VI" step="0.01" min="2" max="5">
+                                <input type="number" id="avg7" placeholder="VII" step="0.01" min="2" max="5">
+                                <input type="number" id="avg8" placeholder="VIII" step="0.01" min="2" max="5">
+                                <input type="number" id="avg9" placeholder="IX" step="0.01" min="2" max="5">
+                            </div>
+                        </div>
+
+                        <div class="input-block">
+                            <h4><span class="step-num">2</span> 4 Key Subjects (VI-IX)</h4>
+                            <div class="subjects-table">
+                                <div class="table-head"><span>#</span><span>VI</span><span>VII</span><span>VIII</span><span>IX</span></div>
+                                <div class="table-row"><span>1.</span><input type="number" id="s1_6"><input type="number" id="s1_7"><input type="number" id="s1_8"><input type="number" id="s1_9"></div>
+                                <div class="table-row"><span>2.</span><input type="number" id="s2_6"><input type="number" id="s2_7"><input type="number" id="s2_8"><input type="number" id="s2_9"></div>
+                                <div class="table-row"><span>3.</span><input type="number" id="s3_6"><input type="number" id="s3_7"><input type="number" id="s3_8"><input type="number" id="s3_9"></div>
+                                <div class="table-row"><span>4.</span><input type="number" id="s4_6"><input type="number" id="s4_7"><input type="number" id="s4_8"><input type="number" id="s4_9"></div>
+                            </div>
+                        </div>
+
+                        <div class="input-block-split">
+                            <div class="sub-block">
+                                <h4><span class="step-num">3</span> Behavior</h4>
+                                <div class="behavior-selects">
+                                    <select id="beh6"><option value="5">VI (Exemplary)</option><option value="3">Good</option><option value="1">Unsatisfactory</option></select>
+                                    <select id="beh7"><option value="5">VII (Exemplary)</option><option value="3">Good</option><option value="1">Unsatisfactory</option></select>
+                                    <select id="beh8"><option value="5">VIII (Exemplary)</option><option value="3">Good</option><option value="1">Unsatisfactory</option></select>
+                                    <select id="beh9"><option value="5">IX (Exemplary)</option><option value="3">Good</option><option value="1">Unsatisfactory</option></select>
+                                </div>
+                            </div>
+                            <div class="sub-block">
+                                <h4><span class="step-num">4</span> Diplomas</h4>
+                                <input type="number" id="diplomas" placeholder="0-5" min="0" max="5">
+                            </div>
+                        </div>
+                        <button onclick="calculatePoints()" class="calc-btn">CALCULATE TOTAL</button>
+                    </div>
+
+                    <div class="calc-display">
+                        <div class="total-circle">
+                            <span id="total-points">0.00</span>
+                            <label>of 80 points</label>
+                        </div>
+                        <p id="calc-message">Enter your grades to calculate.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="enrollment-footer-row reveal">
+                <div class="deadline-container">
+                    <h2 class="section-title">Application Deadlines</h2>
+                    <div class="deadline-item">
+                        <h4>June 12</h4>
+                        <p>First electronic application through the Ministry system (until 23:59h).</p>
+                    </div>
+                    <div class="deadline-item">
+                        <h4>June 16-17</h4>
+                        <p>Submission of original documentation to the school.</p>
+                    </div>
+                    <div class="deadline-item">
+                        <h4>June 18</h4>
+                        <p>Publication of the final ranking list of admitted students.</p>
+                    </div>
+                </div>
+
+                <div class="action-container">
+                    <div class="docs-needed">
+                        <h3>Required Documents</h3>
+                        <ul>
+                            <li>Enrollment application (generated via e-services)</li>
+                            <li>Original certificates (from VI to IX grade)</li>
+                            <li>Birth certificate</li>
+                            <li>Diplomas from national/international competitions</li>
+                        </ul>
+                    </div>
+                    <a href="https://e-uslugi.mon.gov.mk" target="_blank" class="portal-btn">Apply Electronically</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer-bottom">
+  
+    </footer>
+
+    <script src="javaanimacii.js"></script>
+</body>
+</html>

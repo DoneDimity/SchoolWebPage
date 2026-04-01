@@ -1,0 +1,20 @@
+mk
+                <li><a href="index.html">Дома</a></li>
+                <li><a href="za.html">Уписи</a></li>
+                <li><a href="upisi.html">За училиштето</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="kontakti.html">Контакти</a></li>
+
+                en
+                <li><a href="index-en.html">Home</a></li>
+                <li><a href="za-en.html">Enrollment</a></li>
+                <li><a href="abt-en.html">About School</a></li>
+                <li><a href="news-en.html">News</a></li>
+                <li><a href="contact-en.html">Contact</a></li>
+
+                sq
+                <li><a href="index-sq.html">Ballina</a></li>
+                <li><a href="za-sq.html">Regjistrimi</a></li>
+                <li><a href="abt-sq.html">Për Shkollën</a></li>
+                <li><a href="news-sq.html">Lajme</a></li>
+                <li><a href="contact-sq.html">Kontakt</a></li>

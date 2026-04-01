@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regjistrimet 2025/2026 | SHM "Shën Qirili dhe Metodi"</title>
+    <link rel="stylesheet" href="firstpage.css">
+    <link rel="stylesheet" href="za.css">
+    <link rel="stylesheet" href="upisi.css"> 
+    <link rel="stylesheet" href="animaciii.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><span>🎓 SHM "Shën Qirili dhe Metodi"</span></div>
+            <ul class="nav-links">
+                <li><a href="index-sq.html">Ballina</a></li>
+                <li><a href="za-sq.html">Regjistrimi</a></li>
+                <li><a href="abt-sq.html">Për Shkollën</a></li>
+                <li><a href="news-sq.html">Lajme</a></li>
+                <li><a href="contact-sq.html">Kontakt</a></li>
+                <li class="lang-dropdown">
+                    <a href="#" class="lang-btn">SQ ▾</a>
+                    <ul class="lang-menu">
+                        <li><a href="za.html">Maqedonisht</a></li>
+                        <li><a href="za-en.html">English</a></li>
+                        <li><a href="za-sq.html">Shqip</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="contact-header">
+        <h1>Konkursi <span class="highlight">Intern</span></h1>
+        <p class="header-subtitle"></p>
+    </header>
+
+    <main class="upisi-main">
+        <div class="container">
+            
+            <h2 class="section-title">Vende të lira sipas sektorëve</h2>
+            <div class="table-wrapper reveal">
+                <table class="academic-table">
+                    <thead>
+                        <tr>
+                            <th>Sektori / Profili edukativ</th>
+                            <th>Kohëzgjatja</th>
+                            <th>Pikët minimale</th>
+                            <th>Numri i nxënësve</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Gjimnaz (I përgjithshëm)</td><td>4 vite</td><td>60 pikë</td><td>34 nxënës</td></tr>
+                        <tr><td>Gjimnaz dygjuhësh (Frëngjisht)</td><td>4 vite</td><td>60 pikë</td><td>34 nxënës</td></tr>
+                        <tr><td>Teknikë kompjuterike dhe automatikë</td><td>4 vite</td><td>55 pikë</td><td>34 nxënës</td></tr>
+                        <tr><td>Teknikë kompjuterike dhe automatikë (Dual)</td><td>4 vite</td><td>55 pikë</td><td>25 nxënës</td></tr>
+                        <tr><td>Elektroteknik i energjetikës</td><td>4 vite</td><td>45 pikë</td><td>34 nxënës</td></tr>
+                        <tr><td>Teknik i ushqimit (Dual)</td><td>4 vite</td><td>45 pikë</td><td>25 nxënës</td></tr>
+                        <tr><td>Teknik për e-tregti dhe marketing</td><td>4 vite</td><td>60 pikë</td><td>34 nxënës</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="requirements-grid">
+                <div class="req-card reveal">
+                    <h3>Kushtet e Përgjithshme</h3>
+                    <ul class="req-list">
+                        <li>Arsimi fillor i përfunduar <span>Po</span></li>
+                        <li>Mosha maksimale (të rregullt) <span>17 v.</span></li>
+                        <li>Mosha maksimale (me korresp.) <span>25 v.</span></li>
+                    </ul>
+                </div>
+                <div class="req-card reveal">
+                    <h3>Kriteret e Përzgjedhjes</h3>
+                    <ul class="req-list">
+                        <li>Suksesi mesatar (VI-IX) <span>Maks. 50</span></li>
+                        <li>Suksesi në 4 lëndë kyçe <span>Maks. 20</span></li>
+                        <li>Sjellja (VI-IX) <span>Maks. 5</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="calculator-section reveal">
+                <h2 class="section-title text-center">Kalkulatori i pikëve</h2>
+                <div class="calc-grid-wrapper">
+                    <div class="calc-main-inputs">
+                        <div class="input-block">
+                            <h4><span class="step-num">1</span> Suksesi i përgjithshëm (VI-IX)</h4>
+                            <div class="gpa-inputs">
+                                <input type="number" id="avg6" placeholder="VI" step="0.01" min="2" max="5">
+                                <input type="number" id="avg7" placeholder="VII" step="0.01" min="2" max="5">
+                                <input type="number" id="avg8" placeholder="VIII" step="0.01" min="2" max="5">
+                                <input type="number" id="avg9" placeholder="IX" step="0.01" min="2" max="5">
+                            </div>
+                        </div>
+
+                        <div class="input-block">
+                            <h4><span class="step-num">2</span> 4 Lëndë kyçe (VI-IX)</h4>
+                            <div class="subjects-table">
+                                <div class="table-head"><span>#</span><span>VI</span><span>VII</span><span>VIII</span><span>IX</span></div>
+                                <div class="table-row"><span>1.</span><input type="number" id="s1_6"><input type="number" id="s1_7"><input type="number" id="s1_8"><input type="number" id="s1_9"></div>
+                                <div class="table-row"><span>2.</span><input type="number" id="s2_6"><input type="number" id="s2_7"><input type="number" id="s2_8"><input type="number" id="s2_9"></div>
+                                <div class="table-row"><span>3.</span><input type="number" id="s3_6"><input type="number" id="s3_7"><input type="number" id="s3_8"><input type="number" id="s3_9"></div>
+                                <div class="table-row"><span>4.</span><input type="number" id="s4_6"><input type="number" id="s4_7"><input type="number" id="s4_8"><input type="number" id="s4_9"></div>
+                            </div>
+                        </div>
+
+                        <div class="input-block-split">
+                            <div class="sub-block">
+                                <h4><span class="step-num">3</span> Sjellja</h4>
+                                <div class="behavior-selects">
+                                    <select id="beh6"><option value="5">VI (Shembullore)</option><option value="3">Mirë</option><option value="1">I pakënaqshëm</option></select>
+                                    <select id="beh7"><option value="5">VII (Shembullore)</option><option value="3">Mirë</option><option value="1">I pakënaqshëm</option></select>
+                                    <select id="beh8"><option value="5">VIII (Shembullore)</option><option value="3">Mirë</option><option value="1">I pakënaqshëm</option></select>
+                                    <select id="beh9"><option value="5">IX (Shembullore)</option><option value="3">Mirë</option><option value="1">I pakënaqshëm</option></select>
+                                </div>
+                            </div>
+                            <div class="sub-block">
+                                <h4><span class="step-num">4</span> Diplomat</h4>
+                                <input type="number" id="diplomas" placeholder="0-5" min="0" max="5">
+                            </div>
+                        </div>
+                        <button onclick="calculatePoints()" class="calc-btn">KALKULONI TOTALIN</button>
+                    </div>
+
+                    <div class="calc-display">
+                        <div class="total-circle">
+                            <span id="total-points">0.00</span>
+                            <label>nga 80 pikë</label>
+                        </div>
+                        <p id="calc-message">Shënoni notat tuaja për të llogaritur.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="enrollment-footer-row reveal">
+                <div class="deadline-container">
+                    <h2 class="section-title">Afatet e aplikimit</h2>
+                    <div class="deadline-item">
+                        <h4>12 Qershor</h4>
+                        <p>Aplikimi i parë elektronik përmes sistemit të Ministrisë (deri në 23:59h).</p>
+                    </div>
+                    <div class="deadline-item">
+                        <h4>16-17 Qershor</h4>
+                        <p>Dorëzimi i dokumentacionit origjinal në shkollë.</p>
+                    </div>
+                    <div class="deadline-item">
+                        <h4>18 Qershor</h4>
+                        <p>Shpallja e listës përfundimtare të nxënësve të pranuar.</p>
+                    </div>
+                </div>
+
+                <div class="action-container">
+                    <div class="docs-needed">
+                        <h3>Dokumentet e nevojshme</h3>
+                        <ul>
+                            <li>Fletëparaqitja për regjistrim (gjenerohet përmes e-shërbimeve)</li>
+                            <li>Dëftesat origjinale (nga klasa VI deri IX)</li>
+                            <li>Certifikata e lindjes</li>
+                            <li>Diplomat nga garat shtetërore/ndërkombëtare</li>
+                        </ul>
+                    </div>
+                    <a href="https://e-uslugi.mon.gov.mk" target="_blank" class="portal-btn">Apliko Elektronikisht</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer-bottom">
+
+    </footer>
+
+    <script src="javaanimacii.js"></script>
+</body>
+</html>

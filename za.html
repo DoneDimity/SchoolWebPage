@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уписи 2025/2026 | СОУ "Св. Кирил и Методиј"</title>
+    <link rel="stylesheet" href="firstpage.css">
+    <link rel="stylesheet" href="za.css">
+    <link rel="stylesheet" href="upisi.css"> 
+    <link rel="stylesheet" href="animaciii.css">
+    <link rel="stylesheet" href="za-nas.css"> </head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><span>🎓 СОУ "Св. Кирил и Методиј"</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Дома</a></li>
+                <li><a href="za.html">Уписи</a></li>
+                <li><a href="abt.html">За училиштето</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="kontakti.html">Контакти</a></li>
+                <li class="lang-dropdown">
+                    <a href="#" class="lang-btn">MK ▾</a>
+                    <ul class="lang-menu">
+                        <li><a href="za.html">Македонски</a></li>
+                        <li><a href="za-en.html">English</a></li>
+                        <li><a href="za-sq.html">Shqip</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="contact-header">
+        <h1>Интерен <span class="highlight">Конкурс</span></h1>
+        <p class="header-subtitle"></p>
+    </header>
+
+    <main class="upisi-main">
+        <div class="container">
+            
+            <h2 class="section-title">Слободни места по сектори</h2>
+            <div class="table-wrapper reveal">
+                <table class="academic-table">
+                    <thead>
+                        <tr>
+                            <th>Сектор / Образовен профил</th>
+                            <th>Времетраење</th>
+                            <th>Минимум поени</th>
+                            <th>Број на ученици</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Гимназиско образование (Општа)</td>
+                            <td>4 години</td>
+                            <td>60 поени</td>
+                            <td>34 ученици</td>
+                        </tr>
+                        <tr>
+                            <td>Билингвална гимназија (Француска)</td>
+                            <td>4 години</td>
+                            <td>60 поени</td>
+                            <td>34 ученици</td>
+                        </tr>
+                        <tr>
+                            <td>Компјутерска техника и автоматика</td>
+                            <td>4 години</td>
+                            <td>55 поени</td>
+                            <td>34 ученици</td>
+                        </tr>
+                         <tr>
+                            <td>Компјутерска техника и автоматика(Дуална)</td>
+                            <td>4 години</td>
+                            <td>55 поени</td>
+                            <td>25 ученици</td>
+                        </tr>
+                        <tr>
+                            <td>Електротехничар – енергетичар</td>
+                            <td>4 години</td>
+                            <td>45 поени</td>
+                            <td>34 ученици</td>
+                        </tr>
+                        <tr>
+                            <td>Прехранбен техничар (Дуална)</td>
+                            <td>4 години</td>
+                            <td>45 поени</td>
+                            <td>25 ученици</td>
+                        </tr>
+                        <tr>
+                            <td>Техничар за е-трговија и маркетинг</td>
+                            <td>4 години</td>
+                            <td>60 поени</td>
+                            <td>34 ученици</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="requirements-grid">
+                <div class="req-card reveal">
+                    <h3>Општи Услови</h3>
+                    <ul class="req-list">
+                        <li>Завршено основно образование <span>Да</span></li>
+                        <li>Максимална возраст (редовни) <span>17 г.</span></li>
+                        <li>Максимална возраст (ПОП) <span>25 г.</span></li>
+                    </ul>
+                </div>
+                <div class="req-card reveal">
+                    <h3>Критериуми за избор</h3>
+                    <ul class="req-list">
+                        <li>Среден успех (VI-IX одд.) <span>Макс. 50</span></li>
+                        <li>Успех по 4 клучни предмети <span>Макс. 20</span></li>
+                        <li>Поведение (VI-IX одд.) <span>Макс. 5</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="calculator-section reveal">
+                <h2 class="section-title text-center">Калкулатор за поени</h2>
+                <div class="calc-grid-wrapper">
+                    <div class="calc-main-inputs">
+                        <div class="input-block">
+                            <h4><span class="step-num">1</span> Општ успех (VI-IX одд.)</h4>
+                            <div class="gpa-inputs">
+                                <input type="number" id="avg6" placeholder="VI" step="0.01" min="2" max="5">
+                                <input type="number" id="avg7" placeholder="VII" step="0.01" min="2" max="5">
+                                <input type="number" id="avg8" placeholder="VIII" step="0.01" min="2" max="5">
+                                <input type="number" id="avg9" placeholder="IX" step="0.01" min="2" max="5">
+                            </div>
+                        </div>
+
+                        <div class="input-block">
+                            <h4><span class="step-num">2</span> 4 Битни предмети (VI-IX)</h4>
+                            <div class="subjects-table">
+                                <div class="table-head"><span>#</span><span>VI</span><span>VII</span><span>VIII</span><span>IX</span></div>
+                                <div class="table-row"><span>1.</span><input type="number" id="s1_6"><input type="number" id="s1_7"><input type="number" id="s1_8"><input type="number" id="s1_9"></div>
+                                <div class="table-row"><span>2.</span><input type="number" id="s2_6"><input type="number" id="s2_7"><input type="number" id="s2_8"><input type="number" id="s2_9"></div>
+                                <div class="table-row"><span>3.</span><input type="number" id="s3_6"><input type="number" id="s3_7"><input type="number" id="s3_8"><input type="number" id="s3_9"></div>
+                                <div class="table-row"><span>4.</span><input type="number" id="s4_6"><input type="number" id="s4_7"><input type="number" id="s4_8"><input type="number" id="s4_9"></div>
+                            </div>
+                        </div>
+
+                        <div class="input-block-split">
+                            <div class="sub-block">
+                                <h4><span class="step-num">3</span> Поведение</h4>
+                                <div class="behavior-selects">
+                                    <select id="beh6"><option value="5">VI (Примерно)</option><option value="3">Добро</option><option value="1">Незадоволително</option></select>
+                                    <select id="beh7"><option value="5">VII (Примерно)</option><option value="3">Добро</option><option value="1">Незадоволително</option></select>
+                                    <select id="beh8"><option value="5">VIII (Примерно)</option><option value="3">Добро</option><option value="1">Незадоволително</option></select>
+                                    <select id="beh9"><option value="5">IX (Примерно)</option><option value="3">Добро</option><option value="1">Незадоволително</option></select>
+                                </div>
+                            </div>
+                            <div class="sub-block">
+                                <h4><span class="step-num">4</span> Дипломи</h4>
+                                <input type="number" id="diplomas" placeholder="0-5" min="0" max="5">
+                            </div>
+                        </div>
+                        <button onclick="calculatePoints()" class="calc-btn">ПРЕСМЕТАЈ ВКУПНО</button>
+                    </div>
+
+                    <div class="calc-display">
+                        <div class="total-circle">
+                            <span id="total-points">0.00</span>
+                            <label>од 80 поени</label>
+                        </div>
+                        <p id="calc-message">Внесете ги податоците за да пресметате.</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="enrollment-footer-row reveal">
+                <div class="deadline-container">
+                    <h2 class="section-title">Рокови за пријавување</h2>
+                    <div class="deadline-item">
+                        <h4>12 Јуни</h4>
+                        <p>Прво електронско пријавување преку системот на МОН (до 23:59ч).</p>
+                    </div>
+                    <div class="deadline-item">
+                        <h4>16-17 Јуни</h4>
+                        <p>Доставување на оригиналната документација во училиштето.</p>
+                    </div>
+                    <div class="deadline-item">
+                        <h4>18 Јуни</h4>
+                        <p>Објавување на конечната ранг листа со примени ученици.</p>
+                    </div>
+                </div>
+
+                <div class="action-container">
+                    <div class="docs-needed">
+                        <h3>Потребни документи</h3>
+                        <ul>
+                            <li>Пријава за запишување (се генерира преку е-услуги)</li>
+                            <li>Оригинални свидителства (од VI до IX одделение)</li>
+                            <li>Извод од матична книга на родени</li>
+                            <li>Дипломи од освоени награди на натпревари</li>
+                        </ul>
+                    </div>
+                    <a href="https://e-uslugi.mon.gov.mk" target="_blank" class="portal-btn">Аплицирај Електронски</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer-bottom">
+    </footer>
+
+    <script src="javaanimacii.js"></script>
+</body>
+</html>
